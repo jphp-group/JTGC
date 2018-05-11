@@ -26,7 +26,7 @@
 
 ### __construct()
 ```php
-__construct(php\io\File $file): void
+__construct(array $data): void
 ```
 
 ---

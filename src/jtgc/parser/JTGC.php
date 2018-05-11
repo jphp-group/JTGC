@@ -11,9 +11,9 @@ class JTGC
     private $components;
     private $guiArray;
     
-    public function __construct(File $file)
+    public function __construct(array $data)
     {
-        $this->guiArray = fs::parse($file, "json");
+        $this->guiArray = $data;
         $this->components = [
             "button" => UXButton::class,
             "panel"  => UXPanel::class,

@@ -8,12 +8,13 @@ php class :
 ```php
 use gui;
 use jtgc\parser\JTGC;
+use std;
 
 class Form extends UXForm
 {
     public function show()
     {
-        $this->layout = new JTGC(new File("./layout.json"))->get([ 300, 300 ]); // [ 300, 300 ] is a size of panel
+        $this->layout = new JTGC(fs::parse("layout.json"))->get([ 300, 300 ]); // [ 300, 300 ] is a size of panel
         parent::show(); // show form
 
         $this->mySuperButton->on("click", fn() => {

@@ -3,13 +3,13 @@
 ---
 
 ## JTGC
-> version 0.0.1+dev, created by JPPM.
+> version 0.0.2+dev, created by JPPM.
 
 This utility helps to create a JavaFX GUI layout from json.
 
 ### Install
 ```
-jppm add JTGC@0.0.1+dev
+jppm add JTGC@0.0.2+dev
 ```
 
 ### API
