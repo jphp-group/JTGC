@@ -18,7 +18,9 @@ class JTGC
             "button" => UXButton::class,
             "panel"  => UXPanel::class,
             "imageView" => UXImageView::class,
-            "image" => UXImage::class
+            "image" => UXImage::class,
+            "label" => UXLable::class,
+            "flatButton" => UXFlatButton::class,
         ];
     }
     
