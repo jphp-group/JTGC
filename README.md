@@ -7,13 +7,13 @@ This utility helps to create a JavaFX GUI layout from json.
 php class :
 ```php
 use gui;
-use jtgc\parser\JTCS;
+use jtgc\parser\JTGC;
 
 class Form extends UXForm
 {
     public function show()
     {
-        $this->layout = new JTCS(new File("./layout.json"))->get([ 300, 300 ]); // [ 300, 300 ] is a size of panel
+        $this->layout = new JTGC(new File("./layout.json"))->get([ 300, 300 ]); // [ 300, 300 ] is a size of panel
         parent::show(); // show form
 
         $this->mySuperButton->on("click", fn() => {
