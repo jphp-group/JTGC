@@ -1,0 +1,25 @@
+name: JTGC
+version: 0.0.1+dev
+description: This utility helps to create a JavaFX GUI layout from json.
+
+plugins:
+  - Hub
+  - Doc
+
+deps:
+  jphp-gui-ext: '*'
+  jphp-json-ext: '*'
+
+sources:
+  - src
+
+hub:
+  login: yousan4ik@gmail.com
+
+doc:
+  url-prefix: https://github.com/jphp-group/JTGC/blob/master/api-docs/
+  langs:
+    en: English
+    ru: Русский
+
+ignore: ['/.git/**', '/examples/**', '/package.hub.yml']
