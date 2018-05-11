@@ -1,0 +1,17 @@
+name: simple-button
+version: 1.0.0
+repos:
+- jphp
+deps:
+  jphp-core: '*'
+  jphp-zend-ext: '*'
+  JTGC: '*'
+plugins:
+- App
+app:
+  bootstrap: index.php
+  encoding: UTF-8
+  metrics: ''
+  trace: ''
+sources:
+- src
